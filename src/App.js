@@ -28,8 +28,8 @@ function App() {
     <div className="App" data-theme={theme}>
       <Router>
         <div className="app-container">
-          <button onClick={switchTheme}>
-            switch to {theme === "light" ? "Dark" : "Light"}
+          <button onClick={switchTheme} className="theme-btn">
+            switch to {theme === "light" ? "Dark" : "Light"} mode
           </button>
           <Header />
           <div className="main-container">

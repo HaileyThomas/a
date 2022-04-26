@@ -1,14 +1,10 @@
 import react from "react";
 import { Link } from "react-router-dom";
 
-import dayHeader from "../../assets/images/dayheader.png";
-
 function Header() {
   return (
     <section className="header-container">
-      <div className="header-image-container">
-        <img src={dayHeader} alt="girl on computer" />
-      </div>
+      <div className="header-image-container"></div>
       <nav className="nav-bar">
         <Link to="/" className="nav-btn">
           Home

@@ -15,17 +15,23 @@ code {
 }
 
 :root {
-  --background: grey;
+  --background: #edebeb;
+  --headerimg: url(./assets/images/dayheader.png)
 }
 
 [data-theme='dark'] {
-  --background: black;
+  --background: #1f1e1e;
+  --headerimg: url(./assets/images/nightheader.png)
 }
 
 .App {
   background-color: var(--background);
 }
 
+.theme-btn {
+  width: 150px;
+  margin: auto;
+}
 
 h1 {
   font-family: Righteous;
@@ -38,6 +44,10 @@ h1 {
   justify-content: center;
 }
 
-.header-image-container img {
-  max-width: 700px;
+.header-image-container {
+  display: block;
+  background-image: var(--headerimg);
+  width: 700px;
+  height: 233px;
+  margin: auto;
 }
