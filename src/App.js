@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import useLocalStorage from "use-local-storage";
 import "./App.css";
 
 import Header from "./components/Header";
@@ -10,10 +11,26 @@ import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 
 function App() {
+  // check to see if user has a theme preference
+  const defaultDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  // create stateful theme variable
+  const [theme, setTheme] = useLocalStorage(
+    "theme",
+    defaultDark ? "dark" : "light"
+  );
+  // create function to switch theme
+  const switchTheme = () => {
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
+  };
+
   return (
-    <div className="App">
+    <div className="App" data-theme={theme}>
       <Router>
         <div className="app-container">
+          <button onClick={switchTheme}>
+            switch to {theme === "light" ? "Dark" : "Light"}
+          </button>
           <Header />
           <div className="main-container">
             <Routes>
