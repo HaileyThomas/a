@@ -17,6 +17,8 @@ code {
 :root {
   --background: #edebeb;
   --headerimg: url(./assets/images/dayheader.png);
+  --welcomeimg: url(./assets/images/lightwelcome.png);
+  --black: #000000;
   --maincolor: #ffffff;
   --contrastcolor: #000000;
   --colorone: #ee438c;
@@ -27,6 +29,8 @@ code {
 [data-theme='dark'] {
   --background: #1f1e1e;
   --headerimg: url(./assets/images/nightheader.png);
+  --welcomeimg: url(./assets/images/darkwelcome.png);
+  --black: #000000;
   --maincolor: #000000;
   --contrastcolor: #ffffff;
   --colorone: #33d424;
@@ -81,10 +85,17 @@ h1 {
   color: var(--contrastcolor);
 }
 
+h2 {
+  font-family: Righteous;
+  font-size: 20px;
+  color: var(--contrastcolor);
+}
+
 p {
   font-family: Space Grotesk;
   font-size: 16px;
   color: var(--contrastcolor);
+  text-align: justify;
 }
 
 .app-container {
@@ -108,7 +119,7 @@ text-decoration: none;
 font-size: 25px;
 font-weight: 800;
 background-color: var(--colorone);
-color: var(--contrastcolor);
+color: var(--black);
 border: solid;
 border-width: 2px;
 border-radius: 5px;
@@ -133,6 +144,7 @@ border-radius: 5px;
 
 .footer-container {
   padding: 5px;
+  margin: auto;
 }
 
 .footer-link {
@@ -141,4 +153,17 @@ border-radius: 5px;
 
 .footer-link:hover {
   color: var(--colortwo);
+}
+
+.welcome-image-container {
+  display: block;
+  background-image: var(--welcomeimg);
+  width: 250px;
+  height: 250px;
+  margin: auto;
+}
+
+.welcome-text-container {
+  margin: auto;
+  width: 500px;
 }
