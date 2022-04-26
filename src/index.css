@@ -16,21 +16,48 @@ code {
 
 :root {
   --background: #edebeb;
-  --headerimg: url(./assets/images/dayheader.png)
+  --headerimg: url(./assets/images/dayheader.png);
+  --maincolor: #ffffff;
+  --contrastcolor: #000000;
 }
 
 [data-theme='dark'] {
   --background: #1f1e1e;
-  --headerimg: url(./assets/images/nightheader.png)
+  --headerimg: url(./assets/images/nightheader.png);
+  --maincolor: #000000;
+  --contrastcolor: #ffffff;
 }
 
 .App {
   background-color: var(--background);
+  padding: 5px;
 }
 
 .theme-btn {
-  width: 150px;
+  width: 180px;
   margin: auto;
+  font-family: Righteous;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--maincolor);
+  color: var(--contrastcolor);
+  border-color: var(--contrastcolor);
+  border-radius: 10px;
+}
+
+svg {
+  width: 1.5rem;
+  padding: 5px;
+}
+
+svg.light-icon {
+  color: orange;
+}
+
+svg.dark-icon {
+  color: purple;
 }
 
 h1 {

@@ -10,6 +10,10 @@ import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 
+import Icon from "@mdi/react";
+import { mdiWhiteBalanceSunny } from "@mdi/js";
+import { mdiWeatherNight } from '@mdi/js';
+
 function App() {
   // check to see if user has a theme preference
   const defaultDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -29,7 +33,8 @@ function App() {
       <Router>
         <div className="app-container">
           <button onClick={switchTheme} className="theme-btn">
-            switch to {theme === "light" ? "Dark" : "Light"} mode
+            switch to {theme === "light" ? <Icon path={mdiWeatherNight} className="dark-icon" /> : <Icon path={mdiWhiteBalanceSunny} className="light-icon" />}{" "}
+            mode
           </button>
           <Header />
           <div className="main-container">
