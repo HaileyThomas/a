@@ -11,20 +11,22 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Header />
-        <div className="main-container">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-          </Routes>
+    <div className="App">
+      <Router>
+        <div className="app-container">
+          <Header />
+          <div className="main-container">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/portfolio" element={<Portfolio />} />
+            </Routes>
+          </div>
+          <Footer />
         </div>
-        <Footer />
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 
