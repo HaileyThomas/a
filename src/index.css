@@ -260,3 +260,30 @@ background-color: var(--colorone);
 .form-btn:hover {
   background-color: var(--colortwo);
 }
+
+.portfolio-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-nav-list {
+  list-style: none;
+  padding: 10px;
+}
+
+.portfolio-nav-btn {
+  background-color: var(--colortwo);
+  padding: 5px;
+  border: 2px solid var(--black);
+  border-radius: 5px;
+  font-weight: 700;
+  box-shadow: 5px 5px var(--colorone);
+}
+
+.portfolio-nav-btn:hover {
+  background-color: var(--colorthree);
+}
+
+.category-description {
+  text-align: center;
+}
