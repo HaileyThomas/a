@@ -123,6 +123,7 @@ color: var(--black);
 border: solid;
 border-width: 2px;
 border-radius: 5px;
+box-shadow: 5px 5px var(--colorthree);
 }
 
 .nav-bar {
@@ -166,4 +167,55 @@ border-radius: 5px;
 .welcome-text-container {
   margin: auto;
   width: 500px;
+}
+
+.about-me-container {
+  display: flex;
+}
+
+.headshot-container {
+  flex: 1;
+  padding: 10px;
+}
+
+.headshot-img {
+  border-radius: 100px;
+  border: 2px solid var(--black);
+  box-shadow: 5px 5px var(--colorone);
+}
+
+.about-me-text {
+  flex: 3;
+  padding: 10px;
+}
+
+.about-skills-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.certification-container {
+  flex: 2;
+}
+
+.certification-box {
+  background-color: var(--colorthree);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.skills-container {
+  flex: 2;
+}
+
+.skills-box {
+  background-color: var(--colortwo);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.skills-text {
+  text-align: center;
 }
