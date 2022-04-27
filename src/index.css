@@ -219,3 +219,44 @@ box-shadow: 5px 5px var(--colorthree);
 .skills-text {
   text-align: center;
 }
+
+.contact-text {
+  text-align: center;
+}
+
+.contact-link {
+  color: var(--colortwo);
+}
+
+.contact-link:hover {
+  color: var(--colorone);
+}
+
+.form-container {
+  width: 450px;
+  margin: auto;
+  padding: 10px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 5px;
+  margin: 10px;
+  border: 2px solid var(--colorone);
+  border-radius: 5px;
+  box-shadow: 5px 5px var(--colorthree);
+  font-family: Space Grotesk;
+  font-size: 17px;
+}
+
+.form-btn {
+  font-family: Righteous;
+  font-size: 20px;
+  border: 2px solid var(--black);
+  border-radius: 5px;
+background-color: var(--colorone);
+}
+
+.form-btn:hover {
+  background-color: var(--colortwo);
+}
