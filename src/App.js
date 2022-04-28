@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import useLocalStorage from "use-local-storage";
 import "./App.css";
 
@@ -12,7 +17,7 @@ import Footer from "./components/Footer";
 
 import Icon from "@mdi/react";
 import { mdiWhiteBalanceSunny } from "@mdi/js";
-import { mdiWeatherNight } from '@mdi/js';
+import { mdiWeatherNight } from "@mdi/js";
 
 function App() {
   // check to see if user has a theme preference
@@ -33,7 +38,12 @@ function App() {
       <Router>
         <div className="app-container">
           <button onClick={switchTheme} className="theme-btn">
-            switch to {theme === "light" ? <Icon path={mdiWeatherNight} className="dark-icon" /> : <Icon path={mdiWhiteBalanceSunny} className="light-icon" />}{" "}
+            switch to{" "}
+            {theme === "light" ? (
+              <Icon path={mdiWeatherNight} className="dark-icon" />
+            ) : (
+              <Icon path={mdiWhiteBalanceSunny} className="light-icon" />
+            )}{" "}
             mode
           </button>
           <Header />
@@ -43,6 +53,9 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/portfolio" element={<Portfolio />} />
+              <Route path="*">
+                <Redirect to="/" />
+              </Route>
             </Routes>
           </div>
           <Footer />
