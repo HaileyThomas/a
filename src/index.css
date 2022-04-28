@@ -87,8 +87,13 @@ h1 {
 
 h2 {
   font-family: Righteous;
-  font-size: 20px;
+  font-size: 25px;
   color: var(--contrastcolor);
+}
+
+h3 {
+  font-size: 20px;
+  color: var(--colorone);
 }
 
 p {
@@ -286,4 +291,50 @@ background-color: var(--colorone);
 
 .category-description {
   text-align: center;
+}
+
+.project-card {
+  width: 550px;
+  margin: auto;
+  padding: 5px;
+}
+
+.project-info-container {
+  display: flex;
+}
+
+.project-image-container {
+  flex: 1;
+}
+
+.project-img {
+  width: 220px;
+  border: 2px solid var(--black);
+  border-radius: 10px;
+  box-shadow: 5px 5px var(--colorthree);
+}
+
+.project-text-container {
+  flex: 3;
+  padding: 5px;
+}
+
+.project-text {
+  text-align: center;
+}
+
+.project-link {
+  padding: 5px;
+  margin: 5px;
+  color: var(--black);
+  text-decoration: none;
+  font-weight: 700;
+  background-color: var(--colorone);
+  border: 2px solid var(--black);
+  border-radius: 5px;
+  box-shadow: 5px 5px var(--colortwo);
+}
+
+.project-link:hover {
+  background-color: var(--colorthree);
 }
