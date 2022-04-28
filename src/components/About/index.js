@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import headshot from "../../assets/images/headshot.jpg";
 import resumePdf from "../../assets/files/Hailey_Thomas_-_Junior_Full_Stack_Web_Developer.pdf";
 
