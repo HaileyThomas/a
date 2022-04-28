@@ -399,4 +399,33 @@ background-color: var(--colorone);
 
 .modal-body {
   padding: 10px;
+  display: flex;
+}
+
+.modal-image-container {
+  padding: 5px;
+}
+
+.modal-image {
+width: 600px;
+border: 2px solid var(--black);
+box-shadow: 5px 5px var(--colortwo);
+}
+
+.modal-info-container {
+  padding: 5px;
+}
+
+.category-header {
+  color: var(--contrastcolor);
+}
+
+.category-span {
+  color: var(--colortwo);
+}
+
+.modal-description {
+  padding: 10px;
+  border: 2px solid var(--black);
+  box-shadow: 5px 5px var(--colorthree);
 }

@@ -48,7 +48,7 @@ function Project({ project }) {
           </div>
         </div>
       </div>
-      <Modal onClose={() => setShow(false)} show={show} />
+      <Modal onClose={() => setShow(false)} show={show} project={project} />
     </section>
   );
 }
