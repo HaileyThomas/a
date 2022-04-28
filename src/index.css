@@ -14,6 +14,9 @@ code {
     monospace;
 }
 
+
+/* LIGHT AND DARK THEME VARIABLES */
+
 :root {
   --background: #edebeb;
   --headerimg: url(./assets/images/dayheader.png);
@@ -38,6 +41,9 @@ code {
   --colorthree: #14c4e5;
 }
 
+
+/* APP AND THEME STYLES */
+
 .App {
   background-color: var(--background);
   padding: 5px;
@@ -56,6 +62,9 @@ code {
   border-color: var(--contrastcolor);
   border-radius: 10px;
 }
+
+
+/* ICON STYLES */
 
 svg {
   width: 1.5rem;
@@ -95,6 +104,9 @@ svg.modal-close:hover {
   color: var(--colorone);
 }
 
+
+/* BASIC FONT STYLES */
+
 h1 {
   font-family: Righteous;
   font-size: 35px;
@@ -119,11 +131,26 @@ p {
   text-align: justify;
 }
 
+
+/* MAIN CONTAINER */
+
 .app-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
+.main-container {
+  margin: auto;
+  background-color: var(--maincolor);
+  width: 650px;
+  justify-self: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* HEADER STYLES */
 
 .header-image-container {
   display: block;
@@ -155,14 +182,8 @@ box-shadow: 5px 5px var(--colorthree);
   background-color: var(--colortwo);
 }
 
-.main-container {
-  margin: auto;
-  background-color: var(--maincolor);
-  width: 650px;
-  justify-self: center;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+
+/* FOOTER STYLES */
 
 .footer-container {
   padding: 5px;
@@ -177,6 +198,9 @@ box-shadow: 5px 5px var(--colorthree);
   color: var(--colortwo);
 }
 
+
+/* WELCOME STYLES */
+
 .welcome-image-container {
   display: block;
   background-image: var(--welcomeimg);
@@ -189,6 +213,9 @@ box-shadow: 5px 5px var(--colorthree);
   margin: auto;
   width: 500px;
 }
+
+
+/* ABOUT ME STYLES */
 
 .about-me-container {
   display: flex;
@@ -246,6 +273,9 @@ box-shadow: 5px 5px var(--colorthree);
   text-align: center;
 }
 
+
+/* CONTACT STYLES */
+
 .contact-text {
   text-align: center;
 }
@@ -286,6 +316,9 @@ background-color: var(--colorone);
 .form-btn:hover {
   background-color: var(--colortwo);
 }
+
+
+/* PORTFOLIO STYLES */
 
 .portfolio-nav {
   display: flex;
@@ -428,4 +461,169 @@ box-shadow: 5px 5px var(--colortwo);
   padding: 10px;
   border: 2px solid var(--black);
   box-shadow: 5px 5px var(--colorthree);
+}
+
+
+/* MOBILE RESPONSIVNESS START */
+/* TABLET STYLES */
+@media(max-width: 768px) {
+  .modal-content {
+    width: 750px;
+  }
+
+  .modal-image {
+    width: 500px;
+  }
+
+  .category-header {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+@media(max-width: 750px) {
+  .App {
+    width: 100%;
+    margin: 0;
+  }
+
+  .header-image-container {
+  width: 500px;
+  height: 150px;
+  background-size: 500px 150px;
+  }
+
+  .modal-content {
+    width: 500px;
+  }
+
+  .modal-image {
+    width: 300px;
+  }
+}
+
+@media(max-width: 685px) {
+.main-container {
+    width: 480px;
+  }
+
+  .nav-btn {
+    font-size: 20px;
+  }
+  
+  .welcome-text-container {
+    width: 470px;
+  }
+
+  .project-card {
+    width: 470px;
+  }
+
+  .modal-content {
+    width: 480px;
+  }
+
+  .modal-body {
+    flex-direction: column-reverse;
+  }
+
+  .modal-image {
+    width: 430px;
+  }
+
+  .form-container {
+    width: 400px;
+  }
+}
+
+/* MOBILE RESPONSIVENESS */
+@media(max-width: 515px) {
+  .main-container {
+    width: 450px;
+  }
+
+  .header-image-container {
+    width: 440px;
+    height: 150px;
+    background-size: 440px 150px;
+    }
+
+  .nav-btn {
+    font-size: 18px;
+  }
+  
+  .welcome-text-container {
+    width: 440px;
+  }
+
+  .about-me-container {
+    flex-direction: column;
+  }
+
+  .about-skills-container {
+    flex-direction: column;
+  }
+
+  .project-card {
+    width: 440px;
+  }
+
+  .modal-content {
+    width: 450px;
+  }
+
+  .modal-body {
+    flex-direction: column-reverse;
+  }
+
+  .modal-image {
+    width: 400px;
+  }
+
+  .form-container {
+    width: 380px;
+  }
+}
+
+@media(max-width: 485px) {
+  .main-container {
+    width: 425px;
+  }
+
+  .header-image-container {
+    width: 425px;
+    height: 150px;
+    background-size: 425px 150px;
+    }
+
+  .nav-btn {
+    font-size: 15px;
+  }
+  
+  .welcome-text-container {
+    width: 415px;
+  }
+
+  .project-card {
+    width: 415px;
+  }
+
+  .project-info-container {
+    flex-direction: column;
+  }
+
+  .modal-content {
+    width: 440px;
+  }
+
+  .form-container {
+    width: 350px;
+  }
 }
