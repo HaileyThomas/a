@@ -1,10 +1,20 @@
 import react from "react";
 import headshot from "../../assets/images/headshot.jpg";
+import resumePdf from "../../assets/files/Hailey_Thomas_-_Junior_Full_Stack_Web_Developer.pdf";
+
+import Icon from "@mdi/react";
+import { mdiFileAccount } from "@mdi/js";
 
 function About() {
   return (
     <section className="about-container">
       <h1>About Me</h1>
+      <a href={resumePdf} download>
+        <Icon path={mdiFileAccount} className="footer-icon" />
+      </a>
+      <p className="resume-text">
+        <i>click above icon to download my resume.</i>
+      </p>
       <div className="about-me-container">
         <div className="headshot-container">
           <img

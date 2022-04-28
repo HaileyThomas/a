@@ -178,6 +178,11 @@ box-shadow: 5px 5px var(--colorthree);
   display: flex;
 }
 
+.resume-text {
+  text-align: center;
+  font-size: 14px;
+}
+
 .headshot-container {
   flex: 1;
   padding: 10px;

@@ -1,4 +1,5 @@
 import react from "react";
+import resumePdf from "../../assets/files/Hailey_Thomas_-_Junior_Full_Stack_Web_Developer.pdf";
 
 import Icon from "@mdi/react";
 import { mdiGithub } from "@mdi/js";
@@ -25,11 +26,7 @@ function Footer() {
         >
           <Icon path={mdiLinkedin} className="footer-icon" />
         </a>
-        <a
-          href="http://www.disney.com"
-          target="blank"
-          rel="noopener noreferrer"
-        >
+        <a href={resumePdf} download>
           <Icon path={mdiFileAccount} className="footer-icon" />
         </a>
       </div>
