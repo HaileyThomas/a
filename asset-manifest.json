@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/portfolio-v3/static/css/main.538adcc4.css",
+    "main.js": "/portfolio-v3/static/js/main.532ab2d6.js",
+    "static/js/377.3a077f8d.chunk.js": "/portfolio-v3/static/js/377.3a077f8d.chunk.js",
+    "static/media/portfoliov2.png": "/portfolio-v3/static/media/portfoliov2.d1ac98ab8e2efc5168fc.png",
+    "static/media/booksearch.png": "/portfolio-v3/static/media/booksearch.fabcf825d0eff4707582.png",
+    "static/media/regform.png": "/portfolio-v3/static/media/regform.9517cdce6b4c8bc538b3.png",
+    "static/media/portfoliov1.png": "/portfolio-v3/static/media/portfoliov1.bdaf23bae03292955be4.png",
+    "static/media/bookormovie.png": "/portfolio-v3/static/media/bookormovie.a3af75aa303b43dcb24b.png",
+    "static/media/catdressup.png": "/portfolio-v3/static/media/catdressup.b49b8f1e622998f9aa20.png",
+    "static/media/portfoliogen.png": "/portfolio-v3/static/media/portfoliogen.3c812555bca17648297c.png",
+    "static/media/bookclub.png": "/portfolio-v3/static/media/bookclub.48df87043b7e53533ecb.png",
+    "static/media/weather.png": "/portfolio-v3/static/media/weather.31dc5fb22d16af265b67.png",
+    "static/media/readmegen.png": "/portfolio-v3/static/media/readmegen.7e25338346a8b9c0688d.png",
+    "static/media/toclarify.png": "/portfolio-v3/static/media/toclarify.ed45ca20452707bcd661.png",
+    "static/media/techblog.png": "/portfolio-v3/static/media/techblog.ba873728026c026dde17.png",
+    "static/media/nightheader.png": "/portfolio-v3/static/media/nightheader.bbeeddeec7d6a9e1115b.png",
+    "static/media/dayheader.png": "/portfolio-v3/static/media/dayheader.1cee0eb721aa2a14d2d3.png",
+    "static/media/teamgen.png": "/portfolio-v3/static/media/teamgen.6d2febafd99176275f97.png",
+    "static/media/numerology.png": "/portfolio-v3/static/media/numerology.c13846462e79ce8ad4aa.png",
+    "static/media/plumbob.png": "/portfolio-v3/static/media/plumbob.f69f02a14cd784e9a1ed.png",
+    "service-worker.js": "/portfolio-v3/service-worker.js",
+    "static/media/codingquiz.png": "/portfolio-v3/static/media/codingquiz.af13734ff48a85a2edfc.png",
+    "static/media/monster.png": "/portfolio-v3/static/media/monster.a82383beee629d994acd.png",
+    "static/media/Hailey_Thomas_-_Junior_Full_Stack_Web_Developer.pdf": "/portfolio-v3/static/media/Hailey_Thomas_-_Junior_Full_Stack_Web_Developer.13113f35bfd47b40bb3f.pdf",
+    "static/media/robotglad.png": "/portfolio-v3/static/media/robotglad.59eb9e86b73f1a853a4a.png",
+    "static/media/workday.png": "/portfolio-v3/static/media/workday.becebea3e399594e392d.png",
+    "static/media/lightwelcome.png": "/portfolio-v3/static/media/lightwelcome.e30bd457dde233d42a97.png",
+    "static/media/darkwelcome.png": "/portfolio-v3/static/media/darkwelcome.ad4ea06548c4d742915d.png",
+    "static/media/passwordgen.png": "/portfolio-v3/static/media/passwordgen.ccaa8686b16eb491a607.png",
+    "static/media/headshot.jpg": "/portfolio-v3/static/media/headshot.5dcbbee73a9b7c0a7453.jpg",
+    "static/media/notetaker.png": "/portfolio-v3/static/media/notetaker.6d9aeb6c22b26a3b5e87.png",
+    "index.html": "/portfolio-v3/index.html",
+    "main.538adcc4.css.map": "/portfolio-v3/static/css/main.538adcc4.css.map",
+    "main.532ab2d6.js.map": "/portfolio-v3/static/js/main.532ab2d6.js.map",
+    "377.3a077f8d.chunk.js.map": "/portfolio-v3/static/js/377.3a077f8d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.538adcc4.css",
+    "static/js/main.532ab2d6.js"
+  ]
+}
