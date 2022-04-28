@@ -22,7 +22,7 @@ To use my portfolio, open the React App in your web browser using the link below
 
 ### Links
 
-- [DeployedLink](link here) - link to deployed website
+- [DeployedLink](https://haileythomas.github.io/portfolio-v3/) - link to deployed website
 - [GitHub](https://github.com/HaileyThomas/portfolio-v3) - link to GitHub project
 
 ## Credits
