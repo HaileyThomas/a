@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Redirect,
+  Navigate,
 } from "react-router-dom";
 import useLocalStorage from "use-local-storage";
 import "./App.css";
@@ -53,9 +53,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/portfolio" element={<Portfolio />} />
-              <Route path="*">
-                <Redirect to="/" />
-              </Route>
+              <Route path="*" element={<Navigate to="/" />} />
             </Routes>
           </div>
           <Footer />
