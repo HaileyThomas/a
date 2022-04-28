@@ -627,3 +627,75 @@ box-shadow: 5px 5px var(--colortwo);
     width: 350px;
   }
 }
+
+@media(max-width: 455px) {
+  .main-container {
+    width: 380px;
+  }
+
+  .header-image-container {
+    width: 380px;
+    height: 150px;
+    background-size: 380px 150px;
+    }
+
+  .nav-btn {
+    font-size: 14px;
+  }
+  
+  .welcome-text-container {
+    width: 370px;
+  }
+
+  .project-card {
+    width: 370px;
+  }
+
+  .modal-content {
+    width: 380px;
+  }
+
+  .modal-image {
+    width: 350px;
+  }
+
+  .form-container {
+    width: 310px;
+  }
+}
+
+@media(max-width: 415px) {
+  .main-container {
+    width: 340px;
+  }
+
+  .header-image-container {
+    width: 340px;
+    height: 150px;
+    background-size: 340px 150px;
+    }
+
+  .nav-btn {
+    font-size: 12px;
+  }
+  
+  .welcome-text-container {
+    width: 330px;
+  }
+
+  .project-card {
+    width: 330px;
+  }
+
+  .modal-content {
+    width: 340px;
+  }
+
+  .modal-image {
+    width: 310px;
+  }
+
+  .form-container {
+    width: 270px;
+  }
+}
