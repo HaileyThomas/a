@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PortfolioNav from "../PortfolioNav";
+import ProjectList from "../ProjectList";
 
 function Portfolio() {
   const [categories] = useState([
@@ -33,6 +34,7 @@ function Portfolio() {
       />
       <h2>Current Category: {capitalizeFirstLetter(currentCategory.name)}</h2>
       <p className="category-description">{currentCategory.description}</p>
+      <ProjectList category={currentCategory.name} />
     </section>
   );
 }
