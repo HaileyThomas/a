@@ -49,11 +49,11 @@ function App() {
           <Header />
           <div className="main-container">
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/home" element={<Home />} />
+              <Route path="/" element={<Navigate replace to="/home" />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/portfolio" element={<Portfolio />} />
-              <Route path="*" element={<Navigate to="/" />} />
             </Routes>
           </div>
           <Footer />
