@@ -6,7 +6,7 @@ function Header() {
     <section className="header-container">
       <div className="header-image-container"></div>
       <nav className="nav-bar">
-        <Link to="/home" className="nav-btn">
+        <Link to="/" className="nav-btn">
           Home
         </Link>
         <Link to="/about" className="nav-btn">

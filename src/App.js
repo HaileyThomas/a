@@ -49,11 +49,10 @@ function App() {
           <Header />
           <div className="main-container">
             <Routes>
-              <Route path="/home" element={<Home />} />
-              <Route path="/" element={<Navigate replace to="/home" />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/portfolio" element={<Portfolio />} />
+              <Route exact path="/" element={<Home />} />
+              <Route exact path="/about" element={<About />} />
+              <Route exact path="/contact" element={<Contact />} />
+              <Route exact path="/portfolio" element={<Portfolio />} />
             </Routes>
           </div>
           <Footer />
