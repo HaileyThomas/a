@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Project from "../Project";
 
+import pokedex from "../../assets/images/projectimages/pokedex.png";
 import toclarify from "../../assets/images/projectimages/toclarify.png";
 import numerology from "../../assets/images/projectimages/numerology.png";
 import portfoliov2 from "../../assets/images/projectimages/portfoliov2.png";
@@ -25,6 +26,15 @@ import plumbob from "../../assets/images/projectimages/plumbob.png";
 
 function ProjectList({ category }) {
   const [projects] = useState([
+    {
+      name: "React Pokedex",
+      category: "front-end",
+      description:
+        "Pokedex web application created with React.js, PokeAPI and vanilla CSS.",
+      github: "https://github.com/HaileyThomas/react-pokedex",
+      link: "https://haileythomas.github.io/react-pokedex/",
+      image: pokedex,
+    },
     {
       name: "To Clarify",
       category: "full-stack",
