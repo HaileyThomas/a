@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-v3/static/css/main.538adcc4.css",
-    "main.js": "/portfolio-v3/static/js/main.188abca6.js",
+    "main.js": "/portfolio-v3/static/js/main.f715b971.js",
     "static/js/377.3a077f8d.chunk.js": "/portfolio-v3/static/js/377.3a077f8d.chunk.js",
     "static/media/portfoliov2.png": "/portfolio-v3/static/media/portfoliov2.d1ac98ab8e2efc5168fc.png",
     "static/media/booksearch.png": "/portfolio-v3/static/media/booksearch.fabcf825d0eff4707582.png",
@@ -9,6 +9,7 @@
     "static/media/portfoliov1.png": "/portfolio-v3/static/media/portfoliov1.bdaf23bae03292955be4.png",
     "static/media/bookormovie.png": "/portfolio-v3/static/media/bookormovie.a3af75aa303b43dcb24b.png",
     "static/media/catdressup.png": "/portfolio-v3/static/media/catdressup.b49b8f1e622998f9aa20.png",
+    "static/media/pokedex.png": "/portfolio-v3/static/media/pokedex.42cd50d0fb8e8fedf1e9.png",
     "static/media/portfoliogen.png": "/portfolio-v3/static/media/portfoliogen.3c812555bca17648297c.png",
     "static/media/bookclub.png": "/portfolio-v3/static/media/bookclub.48df87043b7e53533ecb.png",
     "static/media/weather.png": "/portfolio-v3/static/media/weather.31dc5fb22d16af265b67.png",
@@ -19,8 +20,8 @@
     "static/media/dayheader.png": "/portfolio-v3/static/media/dayheader.1cee0eb721aa2a14d2d3.png",
     "static/media/teamgen.png": "/portfolio-v3/static/media/teamgen.6d2febafd99176275f97.png",
     "static/media/numerology.png": "/portfolio-v3/static/media/numerology.c13846462e79ce8ad4aa.png",
-    "static/media/plumbob.png": "/portfolio-v3/static/media/plumbob.f69f02a14cd784e9a1ed.png",
     "service-worker.js": "/portfolio-v3/service-worker.js",
+    "static/media/plumbob.png": "/portfolio-v3/static/media/plumbob.f69f02a14cd784e9a1ed.png",
     "static/media/codingquiz.png": "/portfolio-v3/static/media/codingquiz.af13734ff48a85a2edfc.png",
     "static/media/monster.png": "/portfolio-v3/static/media/monster.a82383beee629d994acd.png",
     "static/media/Hailey_Thomas_-_Junior_Full_Stack_Web_Developer.pdf": "/portfolio-v3/static/media/Hailey_Thomas_-_Junior_Full_Stack_Web_Developer.13113f35bfd47b40bb3f.pdf",
@@ -33,11 +34,11 @@
     "static/media/notetaker.png": "/portfolio-v3/static/media/notetaker.6d9aeb6c22b26a3b5e87.png",
     "index.html": "/portfolio-v3/index.html",
     "main.538adcc4.css.map": "/portfolio-v3/static/css/main.538adcc4.css.map",
-    "main.188abca6.js.map": "/portfolio-v3/static/js/main.188abca6.js.map",
+    "main.f715b971.js.map": "/portfolio-v3/static/js/main.f715b971.js.map",
     "377.3a077f8d.chunk.js.map": "/portfolio-v3/static/js/377.3a077f8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.538adcc4.css",
-    "static/js/main.188abca6.js"
+    "static/js/main.f715b971.js"
   ]
 }
