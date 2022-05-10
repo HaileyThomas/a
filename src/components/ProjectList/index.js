@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Project from "../Project";
 
+import pythonboards from "../../assets/images/projectimages/pythonboards.png";
 import pokedex from "../../assets/images/projectimages/pokedex.png";
 import toclarify from "../../assets/images/projectimages/toclarify.png";
 import numerology from "../../assets/images/projectimages/numerology.png";
@@ -43,6 +44,15 @@ function ProjectList({ category }) {
       github: "https://github.com/HaileyThomas/ToClarify",
       link: "http://toclarifyapp.herokuapp.com/",
       image: toclarify,
+    },
+    {
+      name: "Python Boards",
+      category: "full-stack",
+      description:
+        "Message board CRUD application powered by Python, Flask and SQLAlchemy.",
+      github: "https://github.com/HaileyThomas/python-boards",
+      link: "https://python-boards.herokuapp.com/",
+      image: pythonboards,
     },
     {
       name: "Numerology Table Generator",
