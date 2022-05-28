@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Project from "../Project";
 
+import knightbattle from "../../assets/images/projectimages/knightbattle.png";
 import pythonboards from "../../assets/images/projectimages/pythonboards.png";
 import pokedex from "../../assets/images/projectimages/pokedex.png";
 import toclarify from "../../assets/images/projectimages/toclarify.png";
@@ -53,6 +54,15 @@ function ProjectList({ category }) {
       github: "https://github.com/HaileyThomas/python-boards",
       link: "https://python-boards.herokuapp.com/",
       image: pythonboards,
+    },
+    {
+      name: "Knight Battle",
+      category: "front-end",
+      description:
+        "Text based battle game created with vanilla Javascript and CSS manipulating DOM elements.",
+      github: "https://github.com/HaileyThomas/knight-battle",
+      link: "https://haileythomas.github.io/knight-battle/",
+      image: knightbattle,
     },
     {
       name: "Numerology Table Generator",
