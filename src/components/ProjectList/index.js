@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Project from "../Project";
 
+import jquerysnake from "../../assets/images/projectimages/jquerysnake.png";
 import knightbattle from "../../assets/images/projectimages/knightbattle.png";
 import pythonboards from "../../assets/images/projectimages/pythonboards.png";
 import pokedex from "../../assets/images/projectimages/pokedex.png";
@@ -63,6 +64,15 @@ function ProjectList({ category }) {
       github: "https://github.com/HaileyThomas/knight-battle",
       link: "https://haileythomas.github.io/knight-battle/",
       image: knightbattle,
+    },
+    {
+      name: "jQuery Snake Game",
+      category: "front-end",
+      description:
+        "Simple snake game powered by jQuery and Javascript with a styled CSS Nokia phone.",
+      github: "https://github.com/HaileyThomas/jquery-snake",
+      link: "https://haileythomas.github.io/jquery-snake/",
+      image: jquerysnake,
     },
     {
       name: "Numerology Table Generator",
