@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio-v3/static/css/main.538adcc4.css",
-    "main.js": "/portfolio-v3/static/js/main.bcb07402.js",
+    "main.js": "/portfolio-v3/static/js/main.0fdb10ea.js",
     "static/js/377.3a077f8d.chunk.js": "/portfolio-v3/static/js/377.3a077f8d.chunk.js",
     "static/media/portfoliov2.png": "/portfolio-v3/static/media/portfoliov2.d1ac98ab8e2efc5168fc.png",
     "static/media/booksearch.png": "/portfolio-v3/static/media/booksearch.fabcf825d0eff4707582.png",
     "static/media/regform.png": "/portfolio-v3/static/media/regform.9517cdce6b4c8bc538b3.png",
+    "static/media/reactweather.png": "/portfolio-v3/static/media/reactweather.32e65fd46ede52925f52.png",
     "static/media/portfoliov1.png": "/portfolio-v3/static/media/portfoliov1.bdaf23bae03292955be4.png",
     "static/media/bookormovie.png": "/portfolio-v3/static/media/bookormovie.a3af75aa303b43dcb24b.png",
     "static/media/knightbattle.png": "/portfolio-v3/static/media/knightbattle.82a0c256277bf6004fcc.png",
@@ -37,11 +38,11 @@
     "static/media/notetaker.png": "/portfolio-v3/static/media/notetaker.6d9aeb6c22b26a3b5e87.png",
     "index.html": "/portfolio-v3/index.html",
     "main.538adcc4.css.map": "/portfolio-v3/static/css/main.538adcc4.css.map",
-    "main.bcb07402.js.map": "/portfolio-v3/static/js/main.bcb07402.js.map",
+    "main.0fdb10ea.js.map": "/portfolio-v3/static/js/main.0fdb10ea.js.map",
     "377.3a077f8d.chunk.js.map": "/portfolio-v3/static/js/377.3a077f8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.538adcc4.css",
-    "static/js/main.bcb07402.js"
+    "static/js/main.0fdb10ea.js"
   ]
 }
