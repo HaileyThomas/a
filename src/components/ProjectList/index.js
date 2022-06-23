@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Project from "../Project";
 
+import reactweather from "../../assets/images/projectimages/reactweather.png";
 import jquerysnake from "../../assets/images/projectimages/jquerysnake.png";
 import knightbattle from "../../assets/images/projectimages/knightbattle.png";
 import pythonboards from "../../assets/images/projectimages/pythonboards.png";
@@ -29,6 +30,15 @@ import plumbob from "../../assets/images/projectimages/plumbob.png";
 
 function ProjectList({ category }) {
   const [projects] = useState([
+    {
+      name: "Weather Dashboard",
+      category: "front-end",
+      description:
+        "Weather Dashboard Progressive Web Application created with React.js and vanilla CSS. Powered by 3rd Party API OpenWeatherMap API.",
+      github: "https://github.com/HaileyThomas/react-weather",
+      link: "https://haileythomas.github.io/react-weather/",
+      image: reactweather,
+    },
     {
       name: "React Pokedex",
       category: "front-end",
